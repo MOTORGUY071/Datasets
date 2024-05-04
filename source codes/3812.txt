@@ -1,0 +1,17 @@
+{
+  "optimizer": {
+    "enabled": true
+  },
+  "metadata": {
+    "bytecodeHash": "ipfs"
+  },
+  "outputSelection": {
+    "*": {
+      "*": [
+        "evm.bytecode",
+        "evm.deployedBytecode",
+        "abi"
+      ]
+    }
+  }
+}

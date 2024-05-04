@@ -1,0 +1,22 @@
+{
+  "remappings": [
+    ":g=/dir"
+  ],
+  "optimizer": {
+    "enabled": true,
+    "runs": 200
+  },
+  "evmVersion": "istanbul",
+  "metadata": {
+    "useLiteralContent": true
+  },
+  "outputSelection": {
+    "*": {
+      "*": [
+        "evm.bytecode",
+        "evm.deployedBytecode",
+        "abi"
+      ]
+    }
+  }
+}

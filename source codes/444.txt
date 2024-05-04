@@ -1,0 +1,26 @@
+{
+  "evmVersion": "istanbul",
+  "libraries": {
+    "contracts/SwapUtils.sol:SwapUtils": {
+      "MathUtils": "0xc0409ec303b727bc1f511d7f8c71fd5ead96de1c"
+    }
+  },
+  "metadata": {
+    "bytecodeHash": "ipfs",
+    "useLiteralContent": true
+  },
+  "optimizer": {
+    "enabled": true,
+    "runs": 10000
+  },
+  "remappings": [],
+  "outputSelection": {
+    "*": {
+      "*": [
+        "evm.bytecode",
+        "evm.deployedBytecode",
+        "abi"
+      ]
+    }
+  }
+}
